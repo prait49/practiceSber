@@ -1,6 +1,6 @@
 package org.example.nestedClasses;
 
-abstract class ProductInfo {
-    String name;
+public class ProductInfo {
     double price;
+    String name;
 }

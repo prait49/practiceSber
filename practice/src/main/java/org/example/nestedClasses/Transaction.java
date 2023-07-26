@@ -31,7 +31,7 @@ public class Transaction {
         System.out.println("Total price: USD " + String.format("%.2f", dealPrice()));
     }
 
-    class TransactionItem {
+    public class TransactionItem {
 
         private double price;
         private String name;
@@ -40,21 +40,20 @@ public class Transaction {
             this.name = (name == null || name.trim().isEmpty())
                     ? "Default"
                     : name;
-
             this.price = (price <= 0)
                     ? 0
                     : price;
-            Transaction.this.setPrice(Transaction.this.getPrice()+price);
+            Transaction.this.setPrice(getTransaction().price += price);
         }
 
-        void printInfo(){
-            System.out.printf("Item:,");
-            Transaction.this.printCheck(getPrice());
-        }
         public Transaction getTransaction() {
             return Transaction.this;
         }
-    }
 
+        void printInfo() {
+            System.out.printf("Item: %s, price: USD %.2f%n", name, price);
+            Transaction.this.printCheck(getPrice());
+        }
+    }
 
 }
