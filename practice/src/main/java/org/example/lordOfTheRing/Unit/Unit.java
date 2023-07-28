@@ -1,4 +1,6 @@
 package org.example.lordOfTheRing.Unit;
 
-public abstract class Unit {}
+public abstract class Unit {
+
+}
 
