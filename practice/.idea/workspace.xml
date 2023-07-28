@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc0c7cb7-56c1-4e33-98fb-47246f95579f" name="Changes" comment="practice">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrayList/CardCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrayList/CashCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrayList/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrayList/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Army.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Infantry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Unit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/nestedClasses/ProductInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/nestedClasses/ProductInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/nestedClasses/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/nestedClasses/Receipt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/nestedClasses/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/nestedClasses/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/nestedClasses/ProductInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/nestedClasses/ProductInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/nestedClasses/Transaction$TransactionItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/nestedClasses/Transaction$TransactionItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/nestedClasses/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/nestedClasses/Transaction.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/potap/Desktop/studies/SberPractice/practice",
+    "last_opened_file_path": "C:/Users/potap/Desktop/SPS/sps38.ru",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,7 +72,7 @@
       <updated>1689659226157</updated>
       <workItem from="1689659226862" duration="8855000" />
       <workItem from="1689727020882" duration="20370000" />
-      <workItem from="1690202354693" duration="25229000" />
+      <workItem from="1690202354693" duration="54128000" />
     </task>
     <task id="LOCAL-00001" summary="practice">
       <created>1689813468376</created>
@@ -85,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689813468376</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="practice">
+      <created>1690363565527</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690363565527</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

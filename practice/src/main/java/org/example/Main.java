@@ -4,32 +4,43 @@ import org.example.arrayList.CardCustomer;
 import org.example.arrayList.CashCustomer;
 import org.example.arrayList.Customer;
 import org.example.arrayList.Shop;
+import org.example.lordOfTheRing.Unit.Unit;
+import org.example.lordOfTheRing.Unit.Unit;
+
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
 
-
-//        Customer customer =new Customer(500, null);
+//        A objA = new A();
+//        B objB = new B();
 //
-//        CashCustomer cashCustomer =new CashCustomer( "","", 123);
-//
-//        CardCustomer cardCustomer = new CardCustomer("","",)
-//
-////        System.out.println(customer.getPurchaseCount());
-////        System.out.println(customer.getDiscountSize());
-////        System.out.println(customer.getName());
-//
-//
-//        cashCustomer.customerInfo();
-//        System.out.println(cashCustomer.getPurchaseCount());
-//        System.out.println(cashCustomer.getDocumentNumber());
-//        System.out.println(cashCustomer.getDiscountSize());
-//        System.out.println(cashCustomer.getName());
+//            System.out.println(objB instanceof A);
+//            System.out.println(objA instanceof B);
 
 
-//        Shop.createShopInfo();
 
 
-        Shop.createShopInfo();
+
+
+
+
     }
+}
+
+class ABC <T extends Unit>{
+    private List<T> Cavalry;
+
+    public ABC(List<T> cavalry) {
+        Cavalry = cavalry;
+    }
+
+}
+
+
+class A {
+    int a;
+}
+class B extends A {
+    int b;
 }
