@@ -40,7 +40,6 @@ public class Army<T extends Unit> {
         return army;
     }
 
-
     public boolean recruit(T unit) {
         if (unit instanceof Cavalry) {
             cavalry.add((Cavalry) unit);
@@ -62,11 +61,10 @@ public class Army<T extends Unit> {
 
     }
 
-    //Скорее всего неправильный метод
 
     public boolean release(T unit) {
-        for (Unit army1:  army) {
-            if (army1.equals(unit)){
+        for (Unit army1 : army) {
+            if (army1.equals(unit)) {
                 army.remove(unit);
                 return true;
             }
@@ -74,19 +72,27 @@ public class Army<T extends Unit> {
         return false;
     }
 
-    public void getRandomUnit(){
-
+    public Unit getRandomUnit() {
+        if (army.isEmpty()) {
+            return null;
+        }
+        Random random = new Random();
+        int randomIndex = random.nextInt(army.size());
+        return army.get(randomIndex);
     }
 
-//    public void getRandomUnit(T Unit){
-//        if( Unit instanceof )
-//    }
-
-
-
-
-
-
+    public Unit getRandomUnit(T Unit) {
+        Random random = new Random();
+        if (Unit instanceof Cavalry) {
+            int randomIndex = random.nextInt(cavalry.size());
+            return cavalry.get(randomIndex);
+        } else if (Unit instanceof Infantry) {
+            int randomIndex = random.nextInt(infantry.size());
+            return infantry.get(randomIndex);
+        } else {
+            return null;
+        }
+    }
 }
 
 
