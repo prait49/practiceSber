@@ -1,4 +1,4 @@
-package org.example.lordOfTheRing.Unit;
+package com.intellekta.generics.middleearth.lordOfTheRing.Unit;
 
 public abstract class Unit {
 

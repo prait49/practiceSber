@@ -1,4 +1,4 @@
-package org.example.lordOfTheRing.Unit;
+package com.intellekta.generics.middleearth.lordOfTheRing.Unit;
 
 public class MiddleEarthUnit extends Unit {
     public MiddleEarthUnit(String name) {

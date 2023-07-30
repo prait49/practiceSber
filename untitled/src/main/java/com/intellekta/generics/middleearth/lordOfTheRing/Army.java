@@ -1,8 +1,8 @@
-package org.example.lordOfTheRing;
+package com.intellekta.generics.middleearth.lordOfTheRing;
 
-import org.example.lordOfTheRing.Unit.Cavalry;
-import org.example.lordOfTheRing.Unit.Infantry;
-import org.example.lordOfTheRing.Unit.Unit;
+import com.intellekta.generics.middleearth.lordOfTheRing.Unit.Cavalry;
+import com.intellekta.generics.middleearth.lordOfTheRing.Unit.Infantry;
+import com.intellekta.generics.middleearth.lordOfTheRing.Unit.Unit;
 
 import java.util.ArrayList;
 import java.util.List;
