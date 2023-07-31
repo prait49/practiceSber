@@ -1,22 +1,14 @@
 package org.example.lordOfTheRing.Unit;
 
-public abstract class Unit {
+public interface Unit {
 
-    private String name;
+     int getPower();
 
-    public Unit(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    @Override
-    public String toString() {
-        return "Unit{" +
-                "name='" + name + '\'' +
-                '}';
-    }
+     default boolean isAlive(){
+        return getPower()>0;
+    };
 }
+
+
+
 
