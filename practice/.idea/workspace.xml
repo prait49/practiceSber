@@ -5,30 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc0c7cb7-56c1-4e33-98fb-47246f95579f" name="Changes" comment="practice">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Warg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Elf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Rohhirim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/WoodenElf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Goblin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Orc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Troll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/UrukHai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/AbstractUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Army.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Army.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Cavalry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Infantry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Infantry/Infantry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/MiddleEarthUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/MordorUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Horse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Warg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Warg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Infantry/Infantry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Infantry/Infantry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Rohhirim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Rohhirim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Orc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Orc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Unit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/src/main/java/com/intellekta/generics/middleearth/lordOfTheRing.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/main/java/com/intellekta/generics/middleearth/lordOfTheRing.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/src/main/java/com/intellekta/generics/middleearth/lordOfTheRing/Unit/Cavalry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/main/java/com/intellekta/generics/middleearth/lordOfTheRing/Unit/Cavalry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/src/main/java/com/intellekta/generics/middleearth/lordOfTheRing/Unit/Infantry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/main/java/com/intellekta/generics/middleearth/lordOfTheRing/Unit/Infantry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/src/main/java/com/intellekta/generics/middleearth/lordOfTheRing/Unit/MiddleEarthUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/main/java/com/intellekta/generics/middleearth/lordOfTheRing/Unit/MiddleEarthUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/src/main/java/com/intellekta/generics/middleearth/lordOfTheRing/Unit/MordorUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/main/java/com/intellekta/generics/middleearth/lordOfTheRing/Unit/MordorUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/src/main/java/com/intellekta/generics/middleearth/lordOfTheRing/Unit/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/main/java/com/intellekta/generics/middleearth/lordOfTheRing/Unit/Unit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +58,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/potap/Desktop/studies/SberPractice/untitled",
+    "last_opened_file_path": "C:/PAUL/OSPanel/domains/local.sps38.pro",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -95,7 +79,7 @@
       <workItem from="1689727020882" duration="20370000" />
       <workItem from="1690202354693" duration="69949000" />
       <workItem from="1690689793433" duration="5466000" />
-      <workItem from="1690697523172" duration="14232000" />
+      <workItem from="1690697523172" duration="35341000" />
     </task>
     <task id="LOCAL-00001" summary="practice">
       <created>1689813468376</created>
@@ -132,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690624904197</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="practice">
+      <created>1690788922399</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690788922399</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,21 +132,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="practice" />
     <option name="LAST_COMMIT_MESSAGE" value="practice" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -1,14 +1,25 @@
 package org.example.lordOfTheRing.Unit.MiddleEarthUnit;
 
-public class Rohhirim extends Human {
+import org.example.lordOfTheRing.Unit.Cavalry.Horse;
+
+import java.util.Random;
+
+public class Rohhirim <T extends Horse>  implements Human {
+
+    private Horse horse;
+
 
     @Override
     public int getPower() {
-        return super.getPower();
+        return Human.super.getPower();
+    }
+
+    public int getPower(T horse){
+        return 8+ new Random().nextInt(3) + horse.getPower();
     }
 
     @Override
     public boolean isAlive() {
-        return super.isAlive();
+        return Human.super.isAlive();
     }
 }

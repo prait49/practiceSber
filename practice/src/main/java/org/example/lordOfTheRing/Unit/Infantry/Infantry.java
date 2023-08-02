@@ -4,5 +4,4 @@ import org.example.lordOfTheRing.Unit.Unit;
 
 public interface Infantry extends Unit {
 
-
 }
