@@ -1,16 +1,13 @@
 package org.example.lordOfTheRing.Unit.MordorUnit;
 
+import org.example.lordOfTheRing.Unit.AbstractUnit;
+
 import java.util.Random;
 
-public class Troll implements MordorUnit {
+public class Troll extends AbstractUnit implements MordorUnit {
 
-    @Override
-    public int getPower() {
-        return 11 + new Random().nextInt(5);
-    }
 
-    @Override
-    public boolean isAlive() {
-        return MordorUnit.super.isAlive();
+    public Troll(String name) {
+        super(name, 11, 15);
     }
 }

@@ -5,13 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc0c7cb7-56c1-4e33-98fb-47246f95579f" name="Changes" comment="practice">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/AbstractUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/AbstractCavalryUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Mount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Human/CavalryHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Human/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Human/InfantryHuman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Horse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Warg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Warg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Infantry/Infantry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Infantry/Infantry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Army.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Army.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/AbstractUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/AbstractUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Cavalry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Cavalry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Horse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Warg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Elf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Elf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Human.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/MiddleEarthUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/MiddleEarthUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Rohhirim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Rohhirim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/WoodenElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/WoodenElf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Goblin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Goblin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/MordorUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/MordorUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Orc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Orc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Troll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/UrukHai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/UrukHai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Unit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +95,7 @@
       <workItem from="1689727020882" duration="20370000" />
       <workItem from="1690202354693" duration="69949000" />
       <workItem from="1690689793433" duration="5466000" />
-      <workItem from="1690697523172" duration="35341000" />
+      <workItem from="1690697523172" duration="63764000" />
     </task>
     <task id="LOCAL-00001" summary="practice">
       <created>1689813468376</created>
@@ -123,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690788922399</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="practice">
+      <created>1690961762983</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690961762983</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

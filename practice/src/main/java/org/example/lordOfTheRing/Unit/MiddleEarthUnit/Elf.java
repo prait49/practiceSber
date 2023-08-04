@@ -1,17 +1,12 @@
 package org.example.lordOfTheRing.Unit.MiddleEarthUnit;
 
+import org.example.lordOfTheRing.Unit.AbstractUnit;
+
 import java.util.Random;
 
-public class Elf implements MiddleEarthUnit {
+public class Elf extends AbstractUnit implements MiddleEarthUnit {
 
-
-    @Override
-    public int getPower() {
-        return 4 + new Random().nextInt(4);
-    }
-
-    @Override
-    public boolean isAlive() {
-        return MiddleEarthUnit.super.isAlive();
+    public Elf(String name) {
+        super(name, 4, 7);
     }
 }

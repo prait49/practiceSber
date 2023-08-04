@@ -1,21 +1,49 @@
 package org.example.lordOfTheRing.Unit;
 
-abstract class AbstractUnit<T1 extends Unit> implements Unit {
+import java.util.Random;
 
-    private int power;
+ public abstract class AbstractUnit {
 
-    public AbstractUnit(int power) {
-        this.power = power;
+    protected String name;
+    public int power;
+
+    public AbstractUnit(String name, int minPower, int maxPower) {
+        setName(name);
+        this.power = new Random().nextInt(maxPower - minPower + 1) + minPower;
     }
 
-    @Override
+
+
     public int getPower() {
         return power;
     }
 
-    @Override
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = (name == null||name.trim().isEmpty()) ? super.toString()
+                : name;
+    }
+
     public boolean isAlive() {
-        return Unit.super.isAlive();
+        return power > 0;
+    }
+
+
+     public <T extends AbstractUnit> void strike(T unit) {
+         unit.damage(this.power);
+     }
+     public void damage(int damage) {
+         this.power -= damage;
+         if (this.power < 0) {
+             this.power = 0;
+         }
+     }
+    @Override
+    public String toString() {
+        return getClass().getSimpleName() + " " + name + " has power " + power;
     }
 
 

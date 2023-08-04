@@ -2,15 +2,10 @@ package org.example.lordOfTheRing.Unit.MordorUnit;
 
 import java.util.Random;
 
-public class UrukHai extends Orc{
+public class UrukHai extends Orc implements MordorUnit{
 
-    @Override
-    public int getPower() {
-        return 10 + new Random().nextInt(3);
+    public UrukHai(String name) {
+        super(name);
     }
 
-    @Override
-    public boolean isAlive() {
-        return super.isAlive();
-    }
 }

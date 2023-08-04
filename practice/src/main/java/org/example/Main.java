@@ -10,11 +10,14 @@ import org.example.lordOfTheRing.Unit.Unit;
 public class Main {
     public static void main(String[] args) {
 
+
+
+
         Army<Unit> army = new Army<>();
 
         // Create some infantry units
-        Infantry infantry1 = new Infantry("Infantry Unit 1");
-        Infantry infantry2 = new Infantry("Infantry Unit 2");
+        Infantry infantry1 = new Infantry();
+        Infantry infantry2 = new Infantry();
 
         // Create some cavalry units
         Cavalry cavalry1 = new Cavalry("Cavalry Unit 1");

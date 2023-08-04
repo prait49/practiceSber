@@ -4,4 +4,5 @@ import org.example.lordOfTheRing.Unit.Unit;
 
 public interface Cavalry extends Unit{
 
+
 }

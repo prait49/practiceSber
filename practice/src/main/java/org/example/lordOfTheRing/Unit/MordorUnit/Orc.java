@@ -1,25 +1,11 @@
 package org.example.lordOfTheRing.Unit.MordorUnit;
 
-import org.example.lordOfTheRing.Unit.Cavalry.Warg;
-import org.example.lordOfTheRing.Unit.Infantry.Infantry;
+import org.example.lordOfTheRing.Unit.Cavalry.AbstractCavalryUnit;
+import org.example.lordOfTheRing.Unit.Cavalry.Mount;
 
-import java.util.Random;
 
-public class Orc<T1 extends Warg, T2 extends Infantry> implements MordorUnit {
-
-    private Warg warg;
-
-    @Override
-    public int getPower() {
-        return 8;
-    }
-
-    public int getPower(T1 warg){
-        return 8+ new Random().nextInt(3)+warg.getPower();
-    }
-
-    @Override
-    public boolean isAlive() {
-        return MordorUnit.super.isAlive();
+class Orc extends AbstractCavalryUnit<Mount.Warg> implements MordorUnit {
+    public Orc(String name) {
+        super(name, 8, 10, Mount.Warg);
     }
 }

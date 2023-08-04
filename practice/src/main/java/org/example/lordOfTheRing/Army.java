@@ -13,6 +13,7 @@ public class Army<T extends Unit> {
     private List<Unit> army;
     private final List<Cavalry> cavalry;
     private final List<Infantry> infantry;
+    
 
     public Army() {
         army = new ArrayList<>();

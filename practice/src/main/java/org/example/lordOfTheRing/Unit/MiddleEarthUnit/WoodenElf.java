@@ -1,15 +1,12 @@
 package org.example.lordOfTheRing.Unit.MiddleEarthUnit;
 
 
-public class WoodenElf implements MiddleEarthUnit {
+import org.example.lordOfTheRing.Unit.AbstractUnit;
 
-    @Override
-    public int getPower() {
-        return 6;
-    }
+public class WoodenElf extends AbstractUnit implements MiddleEarthUnit {
 
-    @Override
-    public boolean isAlive() {
-        return MiddleEarthUnit.super.isAlive();
+
+    public WoodenElf(String name) {
+        super(name, 6, 6);
     }
 }

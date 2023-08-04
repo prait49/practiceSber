@@ -1,23 +1,11 @@
 package org.example.lordOfTheRing.Unit.MiddleEarthUnit;
 
-import org.example.lordOfTheRing.Unit.Cavalry.Horse;
+import org.example.lordOfTheRing.Unit.Cavalry.AbstractCavalryUnit;
+import org.example.lordOfTheRing.Unit.Cavalry.Mount;
 
-public class Wizard <T extends Horse> implements MiddleEarthUnit{
+public class Wizard extends AbstractCavalryUnit<Mount.Horse> {
 
-    private Horse horse;
-
-
-    public int getPower(T horse) {
-        return 20+horse.getPower();
-    }
-
-    @Override
-    public int getPower() {
-        return 20+horse.getPower();
-    }
-
-    @Override
-    public boolean isAlive() {
-        return getPower()>0;
+    public Wizard(String name) {
+        super(name,20,20, Mount.Horse);
     }
 }
