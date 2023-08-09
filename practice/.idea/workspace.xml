@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc0c7cb7-56c1-4e33-98fb-47246f95579f" name="Changes" comment="practice">
-      <change afterPath="$PROJECT_DIR$/../CFT/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CFT/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CFT/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CFT/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CFT/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CFT/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CFT/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CFT/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CFT/src/main/java/org/example/Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Battle/Battle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Army.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Army.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/AbstractUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/AbstractUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Rohhirim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Rohirim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/MordorUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/MordorUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Orc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Orc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Troll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/UrukHai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/UrukHai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Unit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/lordOfTheRing/Army.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/lordOfTheRing/Army.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/lordOfTheRing/Unit/Cavalry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/lordOfTheRing/Unit/Infantry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/lordOfTheRing/Unit/MiddleEarthUnit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/lordOfTheRing/Unit/MordorUnit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/lordOfTheRing/Unit/Unit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/lordOfTheRing/Unit/Unit.class" afterDir="false" />
-    </list>
+    <list default="true" id="cc0c7cb7-56c1-4e33-98fb-47246f95579f" name="Changes" comment="practice" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +71,7 @@
       <workItem from="1690202354693" duration="69949000" />
       <workItem from="1690689793433" duration="5466000" />
       <workItem from="1690697523172" duration="65172000" />
-      <workItem from="1691217419511" duration="20388000" />
+      <workItem from="1691217419511" duration="20411000" />
     </task>
     <task id="LOCAL-00001" summary="practice">
       <created>1689813468376</created>
@@ -171,7 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691132337845</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="practice">
+      <created>1691568366526</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1691568366526</updated>
+    </task>
+    <task id="LOCAL-00012" summary="practice">
+      <created>1691568379344</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1691568379344</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
