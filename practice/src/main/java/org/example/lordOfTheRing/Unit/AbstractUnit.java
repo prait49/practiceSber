@@ -2,7 +2,7 @@ package org.example.lordOfTheRing.Unit;
 
 import java.util.Random;
 
- public abstract class AbstractUnit {
+ public abstract class AbstractUnit implements Unit {
 
     protected String name;
     public int power;

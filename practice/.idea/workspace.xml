@@ -5,30 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc0c7cb7-56c1-4e33-98fb-47246f95579f" name="Changes" comment="practice">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/AbstractCavalryUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Mount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Human/CavalryHuman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Human/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Human/InfantryHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CFT/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CFT/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CFT/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CFT/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CFT/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CFT/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CFT/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CFT/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CFT/src/main/java/org/example/Sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Battle/Battle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Army.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Army.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/AbstractUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/AbstractUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Cavalry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Cavalry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Horse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Cavalry/Warg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Elf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Elf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Human.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/MiddleEarthUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/MiddleEarthUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Rohhirim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Rohhirim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/WoodenElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/WoodenElf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Goblin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Goblin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Rohhirim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MiddleEarthUnit/Rohirim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/MordorUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/MordorUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Orc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Orc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/Troll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/UrukHai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/MordorUnit/UrukHai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lordOfTheRing/Unit/Unit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/lordOfTheRing/Army.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/lordOfTheRing/Army.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/lordOfTheRing/Unit/Cavalry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/lordOfTheRing/Unit/Infantry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/lordOfTheRing/Unit/MiddleEarthUnit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/lordOfTheRing/Unit/MordorUnit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/lordOfTheRing/Unit/Unit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/lordOfTheRing/Unit/Unit.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,22 +70,22 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/PAUL/OSPanel/domains/local.sps38.pro",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/PAUL/OSPanel/domains/local.sps38.pro&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -95,7 +98,8 @@
       <workItem from="1689727020882" duration="20370000" />
       <workItem from="1690202354693" duration="69949000" />
       <workItem from="1690689793433" duration="5466000" />
-      <workItem from="1690697523172" duration="63764000" />
+      <workItem from="1690697523172" duration="65172000" />
+      <workItem from="1691217419511" duration="20388000" />
     </task>
     <task id="LOCAL-00001" summary="practice">
       <created>1689813468376</created>
@@ -146,7 +150,28 @@
       <option name="project" value="LOCAL" />
       <updated>1690961762983</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="practice">
+      <created>1691132309433</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691132309433</updated>
+    </task>
+    <task id="LOCAL-00009" summary="practice">
+      <created>1691132327672</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691132327672</updated>
+    </task>
+    <task id="LOCAL-00010" summary="practice">
+      <created>1691132337845</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1691132337845</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
