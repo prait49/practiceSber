@@ -2,44 +2,67 @@ package org.example.linkedLists;
 
 import java.util.*;
 
-public class Installer {
+public class Installer implements Subsystem {
     String name;
     int version;
     Subsystem[] prerequisites;
 
-    public LinkedList<Subsystem> setUpPlan() {
-        LinkedList<Subsystem> installQueue = new LinkedList<>();
+    public Installer(String name, int version, Subsystem[] prerequisites) {
+        this.name = name;
+        this.version = version;
+        this.prerequisites = prerequisites;
+    }
+    @Override
+    public String getName() {
+        return name;
+    }
 
-        boolean[] added = new boolean[prerequisites.length];
+    @Override
+    public int getVersion() {
+        return version;
+    }
 
-        for (int i = 0; i < prerequisites.length; i++) {
-            if (prerequisites[i] == null) {
-                System.out.println("SetUp plan calculation failed. Wrong prerequisite description at " + name + " " + version + ".");
-                return new LinkedList<>();
-            }
-            addPrerequisite(prerequisites[i], installQueue, added);
-        }
+    @Override
+    public void install() {
+        System.out.println(getName() + " version " + getVersion() + " installed successfully");
+    }
+    @Override
+    public Subsystem[] getPrerequisites() {
+        return prerequisites;
+    }
+
+
+
+    public Queue<Subsystem> setUpPlan() {
+        Queue<Subsystem> installQueue = new LinkedList<>();
+        Set<Subsystem> added = new HashSet<>();
+
+        addPrerequisite(this, installQueue, added);
+
         return installQueue;
     }
 
-    private void addPrerequisite(Subsystem subsystem, LinkedList<Subsystem> installQueue, boolean[] added) {
-        if (added[subsystem.getVersion()]) {
+    private void addPrerequisite(Subsystem subsystem, Queue<Subsystem> installQueue, Set<Subsystem> added) {
+        if (subsystem == null || added.contains(subsystem)) {
             return;
         }
 
-        Subsystem[] prerequisites = subsystem.getPrerequisites();
-        for (Subsystem preReq : prerequisites) {
+        for (Subsystem preReq : subsystem.getPrerequisites()) {
             addPrerequisite(preReq, installQueue, added);
         }
 
-        added[subsystem.getVersion()] = true;
+        added.add(subsystem);
         installQueue.add(subsystem);
     }
 
-    public void setUp(LinkedList<Subsystem> installQueue) {
+    public void setUp(Queue<Subsystem> installQueue) {
+        if (installQueue == null) {
+            System.out.println("Install queue is null.");
+            return;
+        }
+
         for (Subsystem subsystem : installQueue) {
             subsystem.install();
-            System.out.println(subsystem.getName() + " version " + subsystem.getVersion() + " installed successfully");
         }
     }
 }
