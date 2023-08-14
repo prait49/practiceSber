@@ -1,6 +1,12 @@
 package com.example.project.JDBC;
 
+import com.example.project.Table.Sale;
+
 import java.sql.*;
+
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class JdbcExample {
     public static void main(String[] args) {
@@ -11,38 +17,53 @@ public class JdbcExample {
         try {
             Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
 
-            // Вывод количества записей в таблице
-            Statement countStatement = connection.createStatement();
-            ResultSet countResult = countStatement.executeQuery("SELECT COUNT(*) FROM sales");
-            if (countResult.next()) {
-                int rowCount = countResult.getInt(1);
-                System.out.println("Total records in sales table: " + rowCount);
-            }
+            // Добавление записи о продаже
+            addSale(connection, 150.0, new Date(1), new Date(1), 1);
 
-            // Вывод полной информации о продаже по идентификатору
-            int saleId = 1; // Замените на нужный идентификатор
-            PreparedStatement saleInfoStatement = connection.prepareStatement("SELECT * FROM sales WHERE id = ?");
-            saleInfoStatement.setInt(1, saleId);
-            ResultSet saleInfoResult = saleInfoStatement.executeQuery();
-            if (saleInfoResult.next()) {
-                int id = saleInfoResult.getInt("id");
-                double amount = saleInfoResult.getDouble("amount");
-                Date purchaseDate = saleInfoResult.getDate("purchase_date");
-                Date saleDate = saleInfoResult.getDate("sale_date");
-                int productId = saleInfoResult.getInt("product_id");
+            // Получение продаж с суммой чека более 100
+            List<Sale> sales = getSalesWithAmountGreaterThan100(connection);
 
-                System.out.println("Sale ID: " + id);
-                System.out.println("Amount: " + amount);
-                System.out.println("Purchase Date: " + purchaseDate);
-                System.out.println("Sale Date: " + saleDate);
-                System.out.println("Product ID: " + productId);
-            } else {
-                System.out.println("Sale with ID " + saleId + " not found.");
+            for (Sale sale : sales) {
+                System.out.println("Sale ID: " + sale.getId());
+                System.out.println("Amount: " + sale.getAmount());
+                System.out.println("Purchase Date: " + sale.getPurchaseDate());
+                System.out.println("Sale Date: " + sale.getSaleDate());
+                System.out.println("Product ID: " + sale.getProductId());
+                System.out.println("====================");
             }
 
             connection.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    private static void addSale(Connection connection, double amount, Date purchaseDate, Date saleDate, int productId) throws SQLException {
+        String insertQuery = "INSERT INTO sales (amount, purchase_date, sale_date, product_id) VALUES (?, ?, ?, ?)";
+        try (PreparedStatement preparedStatement = connection.prepareStatement(insertQuery)) {
+            preparedStatement.setDouble(1, amount);
+            preparedStatement.setDate(2, new java.sql.Date(purchaseDate.getTime()));
+            preparedStatement.setDate(3, new java.sql.Date(saleDate.getTime()));
+            preparedStatement.setInt(4, productId);
+            preparedStatement.executeUpdate();
+        }
+    }
+
+    private static List<Sale> getSalesWithAmountGreaterThan100(Connection connection) throws SQLException {
+        List<Sale> sales = new ArrayList<>();
+        String selectQuery = "SELECT * FROM sales WHERE amount > 100";
+        try (Statement statement = connection.createStatement();
+             ResultSet resultSet = statement.executeQuery(selectQuery)) {
+            while (resultSet.next()) {
+                Sale sale = new Sale();
+                sale.setId(resultSet.getInt("id"));
+                sale.setAmount(resultSet.getDouble("amount"));
+                sale.setPurchaseDate(resultSet.getDate("purchase_date"));
+                sale.setSaleDate(resultSet.getDate("sale_date"));
+                sale.setProductId(resultSet.getInt("product_id"));
+                sales.add(sale);
+            }
+        }
+        return sales;
     }
 }

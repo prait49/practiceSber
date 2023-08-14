@@ -2,35 +2,57 @@ package com.example.project.JPA;
 
 import com.example.project.Table.Sale;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
-import javax.persistence.Query;
+import javax.persistence.*;
+import java.util.Date;
+import java.util.List;
 
 public class JpaExample {
     public static void main(String[] args) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("your-persistence-unit-name");
         EntityManager em = emf.createEntityManager();
 
-        // Вывод количества записей в таблице
-        Query countQuery = em.createQuery("SELECT COUNT(s) FROM Sales");
-        Long rowCount = (Long) countQuery.getSingleResult();
-        System.out.println("Total records in sales table: " + rowCount);
+        EntityTransaction transaction = em.getTransaction();
+        try {
+            transaction.begin();
 
-        // Вывод полной информации о продаже по идентификатору
-        int saleId = 1; // Замените на нужный идентификатор
-        Sale sale = em.find(Sale.class, saleId);
-        if (sale != null) {
-            System.out.println("Sale ID: " + sale.getId());
-            System.out.println("Amount: " + sale.getAmount());
-            System.out.println("Purchase Date: " + sale.getPurchaseDate());
-            System.out.println("Sale Date: " + sale.getSaleDate());
-            System.out.println("Product ID: " + sale.getProductId());
-        } else {
-            System.out.println("Sale with ID " + saleId + " not found.");
+            // Добавление записи о продаже
+            addSale(em, 150.0, new Date(), new Date(), 1);
+
+            transaction.commit();
+
+            // Получение продаж с суммой чека более 100
+            List<Sale> sales = getSalesWithAmountGreaterThan100(em);
+
+            for (Sale sale : sales) {
+                System.out.println("Sale ID: " + sale.getId());
+                System.out.println("Amount: " + sale.getAmount());
+                System.out.println("Purchase Date: " + sale.getPurchaseDate());
+                System.out.println("Sale Date: " + sale.getSaleDate());
+                System.out.println("Product ID: " + sale.getProductId());
+                System.out.println("====================");
+            }
+        } catch (Exception e) {
+            if (transaction != null && transaction.isActive()) {
+                transaction.rollback();
+            }
+            e.printStackTrace();
+        } finally {
+            em.close();
+            emf.close();
         }
+    }
 
-        em.close();
-        emf.close();
+    private static void addSale(EntityManager em, double amount, Date purchaseDate, Date saleDate, int productId) {
+        Sale sale = new Sale();
+        sale.setAmount(amount);
+        sale.setPurchaseDate(purchaseDate);
+        sale.setSaleDate(saleDate);
+        sale.setProductId(productId);
+        em.persist(sale);
+    }
+
+    private static List<Sale> getSalesWithAmountGreaterThan100(EntityManager em) {
+        TypedQuery<Sale> query = em.createQuery("SELECT s FROM Sale s WHERE s.amount > 100", Sale.class);
+        return query.getResultList();
     }
 }

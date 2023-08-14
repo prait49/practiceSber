@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Messages</title>
+    <link th:href="@{/CSS/style.css}" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1>Messages</h1>
+<form th:action="@{/messages}" method="get">
+    <label for="senderNameFilter">Filter by Sender Name:</label>
+    <input type="text" id="senderNameFilter" name="senderName" required>
+    <button type="submit">Filter</button>
+</form>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Sender</th>
+        <th>Message</th>
+    </tr>
+    <tr th:each="message : ${messages}">
+        <td th:text="${message.id}"></td>
+        <td th:text="${message.senderName}"></td>
+        <td th:text="${message.text}"></td>
+    </tr>
+</table>
+<br>
+<a href="/">Go Back</a>
+</body>
+</html>
