@@ -13,7 +13,7 @@ public class JpaExample {
         EntityManager em = emf.createEntityManager();
 
         // Вывод количества записей в таблице
-        Query countQuery = em.createQuery("SELECT COUNT(s) FROM Sale s");
+        Query countQuery = em.createQuery("SELECT COUNT(s) FROM Sales");
         Long rowCount = (Long) countQuery.getSingleResult();
         System.out.println("Total records in sales table: " + rowCount);
 
