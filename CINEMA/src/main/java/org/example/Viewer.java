@@ -1,15 +1,22 @@
 package org.example;
 
-class Viewer {
-    String nickname;
-    int age;
-    int watchedMoviesCount;
+import java.util.List;
 
-    public Viewer(String nickname, int age, int watchedMoviesCount) {
+class Viewer {
+    private String nickname;
+    private int age;
+    private List<Cinema> watchedMovies;
+
+    public Viewer(String nickname, int age, List<Cinema> watchedMovies) {
         this.nickname = nickname;
         this.age = age;
-        this.watchedMoviesCount = watchedMoviesCount;
+        this.watchedMovies = watchedMovies;
     }
+
+    public int getMoviesWatched() {
+        return watchedMovies.size();
+    }
+
 
     public String getNickname() {
         return nickname;
@@ -27,11 +34,11 @@ class Viewer {
         this.age = age;
     }
 
-    public int getWatchedMoviesCount() {
-        return watchedMoviesCount;
+    public List<Cinema> getWatchedMovies() {
+        return watchedMovies;
     }
 
-    public void setWatchedMoviesCount(int watchedMoviesCount) {
-        this.watchedMoviesCount = watchedMoviesCount;
+    public void setWatchedMovies(List<Cinema> watchedMovies) {
+        this.watchedMovies = watchedMovies;
     }
 }
